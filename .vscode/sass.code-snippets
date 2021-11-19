@@ -1,0 +1,10 @@
+{
+  "Definir cor da paleta": {
+		"scope": "sass,scss",
+		"prefix": "getp",
+		"body": [
+			"get-palette-color('${1:palette}', '${2:color}')"
+		],
+		"description": "Retorna a cor da paleta"
+	}
+}

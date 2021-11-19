@@ -1,0 +1,15 @@
+$palette: (
+  'background-color': (
+    'bg-gray-100': rgba(243, 244, 246, 1),
+    'bg-gray-800': rgba(17, 24, 39, 1),
+  ),
+  'text-color': (
+    'text-gray-100': rgba(243, 244, 246, 1),
+    'text-gray-800': rgba(17, 24, 39, 1),
+  ),
+);
+  
+$theme-color: (
+  'light': get-palette-color('background-color', 'bg-gray-100'),
+  'dark': get-palette-color('background-color', 'bg-gray-800'),
+);
